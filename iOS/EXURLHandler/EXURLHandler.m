@@ -1,6 +1,5 @@
 #import "EXURLHandler.h"
-#import "RCTEventDispatcher.h"
-
+#import <React/RCTEventDispatcher.h>
 @import UIKit;
 
 @implementation EXURLHandler

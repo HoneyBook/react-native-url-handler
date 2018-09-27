@@ -109,4 +109,9 @@ RCT_REMAP_METHOD(canOpenURLAsync,
     });
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+   return YES;
+}
+
 @end
